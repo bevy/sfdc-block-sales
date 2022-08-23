@@ -7,7 +7,7 @@ marketplace_ref: {
   listing: "salesforce-v2"
   version: "2.0.1"
   models: ["block-sales_v2"]
-  override_constant: CONNECTION_NAME { value:"app-salesforce" }
-  override_constant: SALESFORCE_SCHEMA { value:"descent-196820.marketplace_project_test_data" }
-  override_constant: SALESFORCE_DOMAIN { value:"salesforce" }
+  override_constant: CONNECTION_NAME { value:"internal-analytics" }
+  override_constant: SALESFORCE_SCHEMA { value:"bevylabs-data-int.ingest__external__sfdc" }
+  override_constant: SALESFORCE_DOMAIN { value:"bevy" }
 }
