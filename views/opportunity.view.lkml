@@ -33,7 +33,7 @@ view: opportunity {
 
   dimension_group: close {
     type: time
-    datatype: timestamp
+    datatype: date
     timeframes: [
       raw,
       date,
